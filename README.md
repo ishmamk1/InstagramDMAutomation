@@ -1,6 +1,6 @@
 # InstagramDmAutomation
 
-How to use the program:
+# How to use the program:
 
 1) Install selenium module through your console by using 'pip install selenium' (without commas).
 
@@ -13,7 +13,7 @@ How to use the program:
 5) Run the program.
 
 
-How the program works:
+# How the program works:
 
 - The program opens up 'https://www.instagram.com/' and inputs your username and password. It then uses the send_keys() function from selenium.webdriver.common.keys to click the 'Enter' key for you.
 
