@@ -5,7 +5,7 @@
 This program allows you to automate the process of sending direct messages to your friends on Instagram. It uses Selenium to interact with the Instagram web interface and perform actions such as
 logging in, navigating to the messaging section, and sending messages to specific friends.
 
-[The program needs to be updated as Instagram has changed its UI, invalidating some of the XPATHS. See Warnings section for more.]
+***[The program needs to be updated as Instagram has changed its UI, invalidating some of the XPATHS. See Warnings section for more.]***
 
 # Prerequisites
 
