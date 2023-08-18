@@ -125,4 +125,9 @@ python main.py
 -If an error occurs, the script prints an error message and waits briefly before exiting.
 -Commented lines indicate additional steps that can be taken, such as handling additional pop-ups.
 
+# Warnings
+
+-The script may require adjustments based on Instagram's UI changes.
+-Be cautious with automating actions on websites to avoid violating their terms of service.
+
 
