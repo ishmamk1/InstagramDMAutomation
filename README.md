@@ -68,66 +68,66 @@ python main.py
 
 **Importing Necessary Modules:**
 
--The script begins by importing essential modules from the Selenium library, including webdriver, By, WebDriverWait, expected_conditions, and Keys.
--It also imports the random and time modules for introducing delays.
+1) The script begins by importing essential modules from the Selenium library, including webdriver, By, WebDriverWait, expected_conditions, and Keys.
+2) It also imports the random and time modules for introducing delays.
 
 **User Information and Configuration:**
 
--Replace the username and password variables with your Instagram credentials.
--Modify the friendusers list with the usernames of the friends you want to message.
--Customize the messages list with the messages you want to send.
+1) Replace the username and password variables with your Instagram credentials.
+2) Modify the friendusers list with the usernames of the friends you want to message.
+3) Customize the messages list with the messages you want to send.
 
 **Chromedriver Setup:**
 
--Set the PATH variable to the path where the chromedriver.exe is located on your system.
--Initialize the webdriver.Chrome instance with the specified PATH.
+1) Set the PATH variable to the path where the chromedriver.exe is located on your system.
+2) Initialize the webdriver.Chrome instance with the specified PATH.
 
 **Navigating to Instagram Direct Messages:**
 
--The script opens the Instagram Direct Message URL using the driver.get() method.
+1) The script opens the Instagram Direct Message URL using the driver.get() method.
 
 **Logging In:**
 
--The script attempts to log into your Instagram account.
--It locates the username and password fields using WebDriverWait and sends the credentials using send_keys().
--The "Enter" key is pressed using Keys.ENTER to submit the login.
+1) The script attempts to log into your Instagram account.
+2) It locates the username and password fields using WebDriverWait and sends the credentials using send_keys().
+3) The "Enter" key is pressed using Keys.ENTER to submit the login.
 
 **Handling Notifications Pop-Up:**
 
--The script handles a pop-up related to notifications by locating and clicking the "Not Now" button using WebDriverWait.
+1) The script handles a pop-up related to notifications by locating and clicking the "Not Now" button using WebDriverWait.
 
 **Sending Direct Messages:**
 
--The script locates the "Send Message" button using WebDriverWait and clicks it.
--It iterates through each friend in the friendusers list to send messages.
+1) The script locates the "Send Message" button using WebDriverWait and clicks it.
+2) It iterates through each friend in the friendusers list to send messages.
 
 **Searching and Messaging Friends:**
 
--For each friend, the script searches for their username in the search box using WebDriverWait.
--The first option (user) is selected by clicking on it.
--The "Next" button is clicked using WebDriverWait to proceed.
+1) For each friend, the script searches for their username in the search box using WebDriverWait.
+2) The first option (user) is selected by clicking on it.
+3) The "Next" button is clicked using WebDriverWait to proceed.
 
 **Sending Messages:**
 
--The script locates the message input box and iterates through each message in the messages list.
--It sends each message using send_keys() and simulates pressing the "Enter" key using Keys.ENTER.
+1) The script locates the message input box and iterates through each message in the messages list.
+2) It sends each message using send_keys() and simulates pressing the "Enter" key using Keys.ENTER.
 
 **Completing the Loop:**
 
--After sending messages, the script clicks the message icon to prepare for the next friend.
+1) After sending messages, the script clicks the message icon to prepare for the next friend.
 
 **Error Handling:**
 
--The script includes error handling to manage various situations such as login failures and element locators not being found.
+1) The script includes error handling to manage various situations such as login failures and element locators not being found.
 
 **Exiting the Script:**
 
--If an error occurs, the script prints an error message and waits briefly before exiting.
--Commented lines indicate additional steps that can be taken, such as handling additional pop-ups.
+1) If an error occurs, the script prints an error message and waits briefly before exiting.
+2) Commented lines indicate additional steps that can be taken, such as handling additional pop-ups.
 
 # Warnings
 
--The script may require adjustments based on Instagram's UI changes.
--Be cautious with automating actions on websites to avoid violating their terms of service.
+1) The script may require adjustments based on Instagram's UI changes.
+2) Be cautious with automating actions on websites to avoid violating their terms of service.
 
 
